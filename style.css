@@ -1,0 +1,64 @@
+html,
+body{
+    height: 100%;
+    background: lightblue;
+}
+#nav{
+    /* height: 10%; */
+    overflow: hidden;
+    background: gray;
+}
+
+#nav a{
+    float: left;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding:30px 15px 0 15px;
+}
+
+#nav h1{
+    text-align: center;
+    color:white;
+    padding-top:30px;
+    margin:0;
+}
+
+#skill-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 25%;
+}
+
+#skills{
+    padding: 25px;
+}
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50%;
+}
+
+
+
+footer{
+    margin-top: auto;
+    padding: 40px;
+    text-align: center;
+    background: gray;
+    border-radius: 50% 50% 0 0;
+    height: 10%;
+    font-size: 25px;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    width: 300px;
+}
